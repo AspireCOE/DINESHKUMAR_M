@@ -1,0 +1,19 @@
+.ext {
+  font-size: 45px;
+  color: gray;
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  transition: 0.5s ease-in;
+}
+
+.btn:hover {
+  background-color: lightseagreen;
+  transform: scale(1.2);
+}
