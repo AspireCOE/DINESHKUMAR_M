@@ -1,0 +1,29 @@
+body{
+    background-color:#FFF455;
+}
+.name {
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+}
+
+
+header{
+    text-align: center;
+}
+
+.csk{
+    margin-left: 30%;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color:   yellow;
+}

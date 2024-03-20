@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(244, 244, 0);
+  
+}
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-data {
+  margin-bottom: 10px;
+}
