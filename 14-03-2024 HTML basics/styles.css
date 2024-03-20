@@ -1,0 +1,49 @@
+body{
+    background-color: #FFE6E6;
+}
+
+a:hover{
+    color: black;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin:auto;
+}
+
+h1{
+    color: blue;
+    
+    text-align: center;
+}
+
+h3{
+    color: #7469B6;
+    text-align: center;
+}
+
+h4{
+    margin-left: 535px;
+}
+
+table {
+    /* border-collapse: collapse; */
+    width: 30%;
+    text-align: center;
+    margin:0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.heading{
+    font-weight: 400;
+}
+
+.queries{
+    margin-left: 40%;
+}
