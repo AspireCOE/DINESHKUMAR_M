@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofa Haven</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- box icons link  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- remix icons link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <a href="#" class="logo">Sofa Haven</a>
+
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a><i class="ri-heart-3-line" id="wishlist-icon"></i></a>
+        <!-- <div class="cart-count">0</div> -->
+        <a><i class="ri-shopping-cart-line" id="cart-icon"></i></a>
+        <a href="signin.html"><i class="ri-user-line" id="user-icon"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <div class="wishlist-section">
+          <div class="wishlist-title">Wishlist items</div>
+          <div class="wishlist-content">
+            <!-- <div class="wishlist-box">
+              <img class="cart-img" src="images/sofa-img1.jpg" alt="sofa-img" />
+              <div class="wishlist-detail">
+                <div class="wishlist-item">aaaaa</div>
+                <div class="wishlist-price">12234</div>
+              </div>
+              <i class="ri-close-large-line wishlist-trash"></i>
+            </div> -->
+            <i class="ri-close-fill" id="wishlist-close"></i>
+          </div>
+        </div>
+
+        <div class="cart">
+          <div class="cart-title">Cart items</div>
+          <div class="cart-content">
+            <!-- <div class="cart-box">
+              <img class="cart-img" src="images/sofa-img1.jpg" alt="sofa-img" />
+              <div class="detail-box">
+                <div class="cart-sofa-title">AAAA</div>
+                <div class="price-box">
+                  <div class="cart-price">Rs.xxx</div>
+                  <div class="cart-amt">Rs.YYYYY</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" />
+              </div>
+              <i class="ri-delete-bin-line cart-trash"></i>
+            </div>
+
+            <div class="cart-box">
+              <img class="cart-img" src="images/sofa-img2.jpg" alt="sofa-img" />
+              <div class="detail-box">
+                <div class="cart-sofa-title">BBBB</div>
+                <div class="price-box">
+                  <div class="cart-price">Rs.xxx</div>
+                  <div class="cart-amt">Rs.YYYYY</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" />
+              </div>
+              <i class="ri-delete-bin-line cart-trash"></i>
+            </div> -->
+          </div>
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+          </div>
+          <button class="btn-buy">Place Order</button>
+          <i class="ri-close-fill" id="cart-close"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- home  -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h5>Thinking comfort</h5>
+        <h1>THINKING LUXURY SOFA'S</h1>
+
+        <button>
+          <a href="#products" class="btn"
+            ><i class="ri-shopping-bag-4-line"></i> Shop now</a
+          >
+        </button>
+        <p>Life is too short to sit on uncomfortable sofas</p>
+      </div>
+
+      <div class="home-img">
+        <img src="images/img1.png" class="home-img" alt="sofa-img" />
+      </div>
+    </section>
+
+    <!-- products  -->
+
+    <section class="products" id="products">
+      <div class="center-in">
+        <h2>New Arrivals</h2>
+      </div>
+
+      <div class="products-content">
+        <div class="box">
+          <div class="row">
+            <img
+              src="images/sofa-img1.jpg"
+              class="product-img"
+              alt="sofa-img"
+            />
+          </div>
+          <h3 class="item-title">
+            Wakefit Sofa Set for Living Room 4-Seater Sofa
+          </h3>
+          <h5 class="item-price">₹10401</h5>
+          <div class="add-cart">
+            <a>
+              Add to cart
+              <i class="ri-shopping-cart-line"></i>
+            </a>
+          </div>
+          <i class="ri-heart-3-line wishlist"></i>
+        </div>
+        <div class="box">
+          <div class="row">
+            <img
+              src="images/sofa-img2.jpg"
+              class="product-img"
+              alt="sofa-img"
+            />
+          </div>
+          <h3 class="item-title">
+            FURNY Alora 4 Seater Fabric RHS L Shape Sofa Set
+          </h3>
+          <h5 class="item-price">₹20999</h5>
+          <div class="add-cart">
+            <a>
+              Add to cart
+              <i class="ri-shopping-cart-line"></i>
+            </a>
+          </div>
+          <i class="ri-heart-3-line wishlist"></i>
+        </div>
+        <div class="box">
+          <div class="row">
+            <img
+              src="images/sofa-img4.jpg"
+              class="product-img"
+              alt="sofa-img"
+            />
+          </div>
+          <h3 class="item-title">
+            AMATA Wood Marino 3-Person Sofa With Two Cushions
+          </h3>
+          <h5 class="item-price">₹15999</h5>
+          <div class="add-cart">
+            <a>
+              Add to cart
+              <i class="ri-shopping-cart-line"></i>
+            </a>
+          </div>
+          <i class="ri-heart-3-line wishlist"></i>
+        </div>
+        <div class="box">
+          <div class="row">
+            <img src="images/img2.png" class="product-img" alt="sofa-img" />
+          </div>
+          <h3 class="item-title">
+            BLACK OAK R3'' Velvet Tuxedo Arm Sofa 3 Seater Sofa Three Seater
+            Sofa
+          </h3>
+          <h5 class="item-price">₹21849</h5>
+          <div class="add-cart">
+            <a>
+              Add to cart
+              <i class="ri-shopping-cart-line"></i>
+            </a>
+          </div>
+          <i class="ri-heart-3-line wishlist"></i>
+        </div>
+        <div class="box">
+          <div class="row">
+            <img src="images/img3.png" class="product-img" alt="sofa-img" />
+          </div>
+          <h3 class="item-title">
+            Amazon Brand - Solimo Duyce 2 Seater Sofa (Fabric, Brown)
+          </h3>
+          <h5 class="item-price">₹11899</h5>
+          <div class="add-cart">
+            <a>
+              Add to cart
+              <i class="ri-shopping-cart-line"></i>
+            </a>
+          </div>
+          <i class="ri-heart-3-line wishlist"></i>
+        </div>
+        <div class="box">
+          <div class="row">
+            <img src="images/img4.png" class="product-img" alt="sofa-img" />
+          </div>
+          <h3 class="item-title">
+            K L FURNITURE Wooden Sofa Set for Living Room |6 Seater Sofa Set
+          </h3>
+          <h5 class="item-price">₹27999</h5>
+          <div class="add-cart">
+            <a>
+              Add to cart
+              <i class="ri-shopping-cart-line"></i>
+            </a>
+          </div>
+          <i class="ri-heart-3-line wishlist"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+      <div class="contact-header">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="contact-body">
+        <div class="contact-info">
+          <div class="contact-box">
+            <div class="contact-icon"><i class="ri-map-pin-line"></i></div>
+            <div class="contact-text">
+              <h3>Address</h3>
+              <p>Abdul kalam Street, <br />RS puram, <br />Coimbatore-641402</p>
+            </div>
+          </div>
+          <div class="contact-box">
+            <div class="contact-icon"><i class="ri-mail-line"></i></div>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p>sofahaven@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-box">
+            <div class="contact-icon"><i class="ri-phone-line"></i></div>
+            <div class="contact-text">
+              <h3>Phone</h3>
+              <p>9876543210</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required="required" cols="30" rows="1"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" value="Send" class="send-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- js file link -->
+    <script src="main.js"></script>
+  </body>
+</html>
