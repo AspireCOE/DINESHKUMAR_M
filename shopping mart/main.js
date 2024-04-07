@@ -87,7 +87,7 @@ function addWishList() {
 }
 
 function createWishList(title, price, imgSrc) {
-  return `
+  return ` 
   <div class="wishlist-box">
   <img class="cart-img" src="${imgSrc}" alt="sofa-img" />
   <div class="wishlist-detail">
