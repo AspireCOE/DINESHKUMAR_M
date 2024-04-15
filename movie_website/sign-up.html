@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamStar</title>
+    <!-- remix icons link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-login">
+      <div class="container">
+        <div class="forms-container">
+          <div class="signin-signup">
+            <form action="" class="sign-in-form" id="signUpForm">
+              <h1 class="title">STREAMSTAR</h1>
+              <h2 class="subtitle">Create an account</h2>
+              <div class="input-field">
+                <i class="ri-user-3-fill"></i>
+                <input type="text" id="signupUsername" placeholder="Username" />
+              </div>
+              <div class="input-field">
+                <i class="ri-mail-fill"></i>
+                <input type="email" id="signupEmail" placeholder="Email" />
+              </div>
+              <div class="input-field">
+                <i class="ri-lock-2-fill"></i>
+                <input
+                  type="password"
+                  id="signupPassword"
+                  placeholder="Password"
+                />
+              </div>
+              <input type="submit" value="SIGN UP" class="btn solid" />
+              <p id="signupMessage" class="error-message"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="img-container">
+        <img src="images/login-img1.png" alt="" />
+      </div>
+    </div>
+
+    <!-- javascript  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const signUpForm = document.getElementById("signUpForm");
+        const signupUsername = document.getElementById("signupUsername");
+        const signupEmail = document.getElementById("signupEmail");
+        const signupPassword = document.getElementById("signupPassword");
+        const signupMessage = document.getElementById("signupMessage");
+
+        signUpForm.addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent form submission
+
+          // Get input values
+          const username = signupUsername.value.trim();
+          const email = signupEmail.value.trim();
+          const password = signupPassword.value.trim();
+
+          // Validate input
+          if (username === "" || email === "" || password === "") {
+            signupMessage.textContent = "Please fill out all fields.";
+            return;
+          }
+
+          // Retrieve existing user data from localStorage
+          let users = JSON.parse(localStorage.getItem("users")) || [];
+
+          // Check if username or email already exists
+          const existingUser = users.find(
+            (user) => user.username === username || user.email === email
+          );
+          if (existingUser) {
+            signupMessage.textContent =
+              "Username or email already exists. Please choose a different one.";
+            return;
+          }
+
+          // Create new user object
+          const newUser = {
+            username: username,
+            email: email,
+            password: password,
+          };
+
+          // Add new user to the users array
+          users.push(newUser);
+
+          // Store updated users array in localStorage
+          localStorage.setItem("users", JSON.stringify(users));
+
+          // Reset form fields
+          signUpForm.reset();
+
+          // Display success message (optional)
+          signupMessage.textContent = "Account created successfully!";
+
+          // Redirect to login page after a short delay
+          setTimeout(function () {
+            window.location.href = "login.html";
+          }, 1000);
+        });
+      });
+    </script>
+  </body>
+</html>

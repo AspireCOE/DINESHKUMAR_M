@@ -1,0 +1,200 @@
+{
+  "movies": {
+    "m1": {
+      "name": "Leo",
+      "rating": "8.2/10",
+      "genre": ["crime", "action"],
+      "runtime": "2h 44m",
+      "year": "2023",
+      "cast": ["Vijay", "Trisha", "Sandy"],
+      "cover": "https://img.onmanorama.com/content/dam/mm/en/entertainment/movie-reviews/images/2023/10/18/leo-poster.jpg",
+      "main_pic": "images/m1_pic.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMmFiOGYyZjQtZmZmNC00ZTgzLWI5ZjktMTRiYzc5NjAzODRkXkEyXkFqcGdeQXVyMTYyNDkzNzgz._V1_UY1200_CR82,0,630,1200_AL_.jpg",
+      "fav": "yes"
+    },
+    "m2": {
+      "name": "Jailer",
+      "rating": "8.5/10",
+      "genre": ["action"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Rajini", "Tammana", "Mohan Lal"],
+      "cover": "https://www.hindustantimes.com/ht-img/img/2023/08/19/1600x900/jailer_box_office_tamil_nadu_1692416829885_1692416841022.jpg",
+      "main_pic": "images/m2_pic.jpg",
+      "thumbnail": "https://moviegalleri.net/wp-content/uploads/2022/08/Rajinikanth-Jailer-Movie-First-Look-Poster-HD.jpg",
+      "fav": ""
+    },
+    "m3": {
+      "name": "12th Fail",
+      "rating": "9.0/10",
+      "genre": ["biography", "drama"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Vikrant Massey", "Medha Shankr"],
+      "cover": "images/12th fail.png",
+      "thumbnail": "https://images.freekaamaal.com/webstory-images/2023/1698734160.webp",
+      "main_pic": "images/m3_pic.avif",
+      "fav": "no"
+    },
+    "m4": {
+      "name": "Vikram",
+      "rating": "9.0/10",
+      "genre": ["thriller"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Kamal Haasan", "Vijay Sethupathi"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTYxOWU3OWYtOGM4NC00NDhlLTlmZTYtMGUxM2YwZmFhOGFlXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
+      "main_pic": "images/m4_pic.webp"
+    },
+    "m5": {
+      "name": "Ratchasan",
+      "rating": "8.3/10",
+      "genre": ["thriller"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Vishnu Vishal", "Amala Paul"],
+      "thumbnail": "https://image.tmdb.org/t/p/original/mruUFlrVKiL994y3vvQBT8R2Vnf.jpg",
+      "main_pic": "images/m5_pic.jpg"
+    },
+    "m6": {
+      "name": "Vikram Vedha",
+      "rating": "8.3/10",
+      "genre": ["thriller"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Madhavan", "Vijay Sethupathi"],
+      "thumbnail": "images/thriler-2.webp",
+      "main_pic": "images/m6_pic.avif"
+    },
+    "m7": {
+      "name": "Vettaiyadu vilayadu",
+      "rating": "8.3/10",
+      "genre": ["thriller"],
+      "runtime": "2h 30m",
+      "year": "2006",
+      "cast": ["Kamal Haasan"],
+      "thumbnail": "https://e1.pxfuel.com/desktop-wallpaper/55/279/desktop-wallpaper-online-vasool-raja-m-b-b-s-tamil-movies-vettaiyaadu-vilaiyaadu.jpg",
+      "main_pic": "images/m7_pic.webp"
+    },
+    "m8": {
+      "name": "Kaithi",
+      "rating": "8.3/10",
+      "genre": ["thriller"],
+      "runtime": "2h 30m",
+      "year": "2019",
+      "cast": ["Karthik", "Arjun Das"],
+      "thumbnail": "https://i.pinimg.com/originals/a4/1e/29/a41e294f26928fbd11726fb04d3d7f7e.jpg",
+      "main_pic": "images/m8_pic.jpg"
+    },
+    "m9": {
+      "name": "Por thozhil",
+      "rating": "8.3/10",
+      "genre": ["thriller"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Sarath kumar,Ashok Selvan"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzQ5MzBjZDQtZTZjMC00OTMwLThhZmUtN2I1MmEwMDk2OTdhXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg",
+      "main_pic": "images/m9_pic.avif"
+    },
+    "m10": {
+      "name": "Nanban",
+      "rating": "8.3/10",
+      "genre": ["comedy"],
+      "runtime": "2h 30m",
+      "year": "2023",
+      "cast": ["Vijay", "Jeeva"],
+      "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaBq7Zgay4nVukVCJGjgjNpktE47dLhfA9nQN4X_bYxz23nqWRpaZtobPtKII6Nz8px9MbCLHQwqYMrErcMvIW0w_422TdzEXmCXQTIS3fGMxTq6n9TuIkKkJq42h0-LqX6SrpmJpGBJI/s1600/nanban-latest-posters-4.jpg",
+      "main_pic": "images/m10_pic.jpg"
+    },
+    "m11": {
+      "name": "Oru Kal Oru Kannadi",
+      "rating": "8.3/10",
+      "genre": ["comedy"],
+      "runtime": "2h 30m",
+      "year": "2012",
+      "cast": ["Udhaynidhi Stalin", "Santhanam"],
+      "thumbnail": "https://d2sal5lpzsf102.cloudfront.net/78575/public/public/system/posters/1441558/standard/Oru-Kal-Oru-Kannadi-1000x1400-Potrait_1682335520.jpg",
+      "main_pic": "images/m11_pic.png"
+    },
+    "m12": {
+      "name": "Kadhalil Sodhappuvadhu Yeppadi",
+      "rating": "8.3/10",
+      "genre": ["comedy"],
+      "runtime": "2h 30m",
+      "year": "2012",
+      "cast": ["Siddharth", "Amala Paul"],
+      "thumbnail": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kadhalil-sodhapuvathu-eppadi-et00009000-24-03-2017-16-25-14.jpg",
+      "main_pic": "images/m12_pic.webp"
+    },
+    "m13": {
+      "name": "Peaky Blinders",
+      "rating": "8.3/10",
+      "genre": ["series"],
+      "runtime": "25m (each ep)",
+      "year": "2012",
+      "cast": ["Cillian Murphy"],
+      "thumbnail": "https://w0.peakpx.com/wallpaper/679/190/HD-wallpaper-tommy-shelby-peaky-blinders-thumbnail.jpg",
+      "main_pic": "images/m13_pic.jpg"
+    },
+    "m14": {
+      "name": "Money heist",
+      "rating": "8.3/10",
+      "genre": ["series"],
+      "runtime": "25m (each ep)",
+      "year": "2017",
+      "cast": ["Alvaro Morte"],
+      "thumbnail": "https://w0.peakpx.com/wallpaper/252/242/HD-wallpaper-money-heist-professor-trending-iammsa-thumbnail.jpg",
+      "main_pic": "images/m14_pic.jpg"
+    },
+    "m15": {
+      "name": "Premalu",
+      "rating": "8.3/10",
+      "genre": ["comedy", "romance"],
+      "runtime": "2h 30m",
+      "year": "2017",
+      "cast": ["Mamitha Baiju", "Nalsen"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTA0OWQwYzYtNTU3MS00M2Y5LTlmZWEtYmMzN2VmZWExNGQwXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
+      "main_pic": "images/m15_pic.jpg"
+    },
+    "m16": {
+      "name": "Komali",
+      "rating": "7.9/10",
+      "genre": ["comedy", "romance"],
+      "runtime": "2h 30m",
+      "year": "2020",
+      "cast": ["Jayam Ravi", "Kajal Agarwal"],
+      "thumbnail": "images/tn16.webp",
+      "main_pic": "images/m16_pic.webp"
+    },
+    "m17": {
+      "name": "Wednesday",
+      "rating": "7.9/10",
+      "genre": ["series"],
+      "runtime": "25m (each ep)",
+      "year": "2020",
+      "cast": ["Jenna Ortega"],
+      "thumbnail": "images/tn17.jpg",
+      "main_pic": "images/m17_pic.jpg"
+    },
+    "m18": {
+      "name": "Santhosh subramaniam",
+      "rating": "7.9/10",
+      "genre": ["comedy"],
+      "runtime": "2h 30m",
+      "year": "2008",
+      "cast": ["Jayam Ravi", "Genelia"],
+      "thumbnail": "https://wallpapercave.com/wp/wp7851877.jpg",
+      "main_pic": "images/m18.jpg"
+    },
+    "m19": {
+      "name": "The last of us",
+      "rating": "7.9/10",
+      "genre": ["series"],
+      "runtime": "25m (each ep)",
+      "year": "2020",
+      "cast": ["Pedro Pascal"],
+      "thumbnail": "https://www.mordeo.org/files/uploads/2023/06/The-Last-of-Us-HBO-Original-Series-Poster-4K-Ultra-HD-Mobile-Wallpaper-scaled.jpg",
+      "main_pic": "images/m19.jpg"
+    }
+  }
+}

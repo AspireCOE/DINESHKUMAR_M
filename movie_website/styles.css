@@ -1,0 +1,415 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  border: none;
+  outline: none;
+  font-family: "Jost", sans-serif;
+}
+a {
+  color: unset;
+  text-decoration: unset;
+}
+body {
+  position: relative;
+  background-color: black;
+  color: #fff;
+}
+
+/* login page  */
+.main-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.img-container img {
+  width: 550px;
+  height: 500px;
+}
+
+.main-login {
+  padding: 300px;
+}
+
+.container {
+  position: relative;
+  background-color: #fff;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 2.2rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 680px;
+  /* width: 100%; */
+  height: 55px;
+  background-color: rgb(240, 221, 221);
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+}
+
+.input-field i {
+  color: black;
+  font-size: 1.2rem;
+  line-height: 55px;
+  text-align: center;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.btn {
+  width: 150px;
+  height: 49px;
+  border: none;
+  outline: none;
+  border-radius: 49px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background-color: #ec1b1b;
+  transform: scale(1.1);
+}
+
+.forms-container a {
+  color: black;
+}
+
+/* search section  */
+.main-search {
+  padding: 15px 30px;
+}
+.series-title {
+  margin: 20px 50px;
+}
+
+.series-list {
+  margin-left: 50px;
+}
+
+.series-movies {
+  display: inline;
+}
+
+.search-result img {
+  height: 100px;
+  width: 150px;
+  border-radius: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  transform: scale(0.85);
+}
+
+.search-result img:hover {
+  transform: scale(1);
+}
+
+.search-result span {
+  font-size: 2rem;
+}
+
+.search-result span:hover {
+  font-size: 2rem;
+  color: #ec1b1b;
+}
+
+/* header section  */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 1px 20px 2px #000;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 60px;
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+
+.nav-title a {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+i {
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.nav-icons,
+.nav-user {
+  display: flex;
+  column-gap: 50px;
+}
+
+.nav-icons:hover,
+.nav-user:hover {
+  cursor: pointer;
+}
+
+.nav-icons i:hover,
+.nav-user i:hover {
+  color: red;
+  transform: scale(1.35);
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-icons a:hover {
+  transform: scale(1.35);
+}
+
+.home-section {
+  padding-inline: 2rem;
+}
+
+.home-title {
+  margin: 15px 30px;
+}
+
+.watch-btn {
+  width: fit-content;
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.watch-btn:hover {
+  background-color: #ec1b1b;
+  font-size: 1.3rem;
+  transform: scale(1.15);
+}
+
+.movie {
+  height: 70vh;
+  background-position: top right;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  background-size: cover;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.movie::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000; /* Adjust gradient stops and opacity */
+  -webkit-mask-image: linear-gradient(
+    to left,
+    transparent,
+    black
+  ); /* For WebKit browsers */
+  mask-image: linear-gradient(to left, transparent, black); /* Standard */
+  z-index: 0;
+  border-radius: 20px;
+}
+
+.movie-details {
+  position: relative; /* Ensure stacking order above overlay */
+  z-index: 1; /* Ensure details are above the overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  row-gap: 5px;
+  padding-left: 45px;
+}
+
+.movie-title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* carousel  */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust the width as desired */
+}
+
+/* thriller section  */
+
+.thriller-title {
+  margin: 15px 50px;
+}
+
+.thriller-list {
+  margin-left: 50px;
+}
+
+.thriller-movies {
+  display: inline;
+}
+
+.thriller-movies img {
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 5px;
+  border: 1px solid wheat;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  transform: scale(0.85);
+}
+
+.thriller-movies img:hover {
+  transform: scale(1);
+}
+
+/* comedy section  */
+
+.comedy-title {
+  margin: 15px 50px;
+}
+
+.comedy-list {
+  margin-left: 50px;
+}
+
+.comedy-movies {
+  display: inline;
+}
+
+.comedy-movies img {
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 5px;
+  border: 1px solid wheat;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  transform: scale(0.85);
+}
+
+.comedy-movies img:hover {
+  transform: scale(1);
+}
+
+/* series section  */
+
+.series-title {
+  margin: 15px 50px;
+}
+
+.series-list {
+  margin-left: 50px;
+}
+
+.series-movies {
+  display: inline;
+}
+
+.series-movies img {
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 5px;
+  border: 1px solid wheat;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  transform: scale(0.85);
+}
+
+.series-movies img:hover {
+  transform: scale(1);
+}
+
+/* fav section  */
+
+.fav-title {
+  margin: 15px 50px;
+}
+
+.fav-list {
+  margin-left: 50px;
+}
+
+.fav-movies {
+  display: inline;
+}
+
+.fav-movies img {
+  height: 300px;
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 5px;
+  border: 1px solid wheat;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  transform: scale(0.85);
+}
+
+.fav-movies img:hover {
+  transform: scale(1);
+}
+
+.add{
+  color:yellow;
+  background-color: blue;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamStar</title>
+
+    <!-- remix icons link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-login">
+      <div class="img-container">
+        <img src="images/login-img2.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="forms-container">
+          <div class="sigin-signup">
+            <form action="" class="sign-in-form" id="signInForm">
+              <h1 class="title">STREAMSTAR</h1>
+              <h1 class="title">Sign in</h1>
+              <div class="input-field">
+                <i class="ri-user-3-fill"></i>
+                <input type="text" id="usernameInput" placeholder="Username" />
+              </div>
+              <div class="input-field">
+                <i class="ri-lock-2-fill"></i>
+                <input
+                  type="password"
+                  id="passwordInput"
+                  placeholder="Password"
+                />
+              </div>
+              <input type="submit" value="LOGIN" class="btn solid" />
+              <a href="sign-up.html">Do not have an account?Create an account</a>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- js link  -->
+    <script>
+    
+        document.addEventListener("DOMContentLoaded", function () {
+        const signInForm = document.getElementById("signInForm");
+        const usernameInput = document.getElementById("usernameInput");
+        const passwordInput = document.getElementById("passwordInput");
+
+        signInForm.addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission
+
+          // Get input values
+          const enteredUsername = usernameInput.value.trim();
+          const enteredPassword = passwordInput.value.trim();
+
+          // Retrieve user data from localStorage and parse into array
+          const storedUserData = localStorage.getItem("users");
+          const users = storedUserData ? JSON.parse(storedUserData) : [];
+
+          // Find user with matching username
+          const user = users.find((user) => user.username === enteredUsername);
+
+          // Check if user exists and password matches
+          if (user && user.password === enteredPassword) {
+            window.location.href = "index.html";
+          } else {
+            // Login failed
+            alert("Incorrect username or password. Please try again.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
