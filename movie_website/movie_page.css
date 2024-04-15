@@ -140,19 +140,19 @@ i {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000; /* Adjust gradient stops and opacity */
+    background: #000; 
     -webkit-mask-image: linear-gradient(
       to left,
       transparent,
       black
-    ); /* For WebKit browsers */
-    mask-image: linear-gradient(to left, transparent, black); /* Standard */
+    ); 
+    mask-image: linear-gradient(to left, transparent, black); 
     z-index: 0;
   }
 
   .main-movie-details {
-    position: relative; /* Ensure stacking order above overlay */
-    z-index: 1; /* Ensure details are above the overlay */
+    position: relative; 
+    z-index: 1; 
     display: flex;
     flex-direction: column;
     justify-content: center;

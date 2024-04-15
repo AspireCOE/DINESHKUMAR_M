@@ -36,36 +36,30 @@ background-image: url('${movie.main_pic}');
 
 // logout
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the user icon element
   var logoutIcon = document.getElementById("logoutIcon");
 
-  // Add click event listener to the user icon
   logoutIcon.addEventListener("click", function () {
-    // Show a confirmation dialog
     var confirmLogout = confirm("Are you sure you want to logout?");
 
-    // If user confirms logout
     if (confirmLogout) {
-      // Redirect to login.html
       window.location.href = "login.html";
     }
   });
 });
 
-// fav 
-const fav_click=document.querySelector('.fav-button');
-document.addEventListener('DOMContentLoaded', function() {
-  const favButton = document.querySelector('.fav-button');
+// fav
+const fav_click = document.querySelector(".fav-button");
+document.addEventListener("DOMContentLoaded", function () {
+  const favButton = document.querySelector(".fav-button");
 
-  favButton.addEventListener('click', function() {
-      const buttonText = favButton.querySelector('span');
+  favButton.addEventListener("click", function () {
+    const buttonText = favButton.querySelector("span");
 
-      // Toggle the button text between "Add to Favourites" and "Added to Favourites"
-      if (buttonText.textContent === 'Add to Favourites') {
-          buttonText.textContent = 'Added to Favourites';
-      } else {
-          buttonText.textContent = 'Add to Favourites';
-      }
+    // Toggle the button text between "Add to Favourites" and "Added to Favourites"
+    if (buttonText.textContent === "Add to Favourites") {
+      buttonText.textContent = "Added to Favourites";
+    } else {
+      buttonText.textContent = "Add to Favourites";
+    }
   });
 });
-

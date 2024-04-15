@@ -100,19 +100,11 @@
             password: password,
           };
 
-          // Add new user to the users array
           users.push(newUser);
 
-          // Store updated users array in localStorage
           localStorage.setItem("users", JSON.stringify(users));
-
-          // Reset form fields
           signUpForm.reset();
 
-          // Display success message (optional)
-          signupMessage.textContent = "Account created successfully!";
-
-          // Redirect to login page after a short delay
           setTimeout(function () {
             window.location.href = "login.html";
           }, 1000);

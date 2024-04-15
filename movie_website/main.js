@@ -1,17 +1,13 @@
 // home page 
 // logout
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the user icon element
-  var logoutIcon = document.getElementById("logoutIcon");
 
-  // Add click event listener to the user icon
+  var logoutIcon = document.getElementById("logoutIcon");
   logoutIcon.addEventListener("click", function () {
-    // Show a confirmation dialog
     var confirmLogout = confirm("Are you sure you want to logout?");
 
-    // If user confirms logout
     if (confirmLogout) {
-      // Redirect to login.html
+     
       window.location.href = "login.html";
     }
   });
@@ -19,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Define a function to fetch data from JSON file
 function fetchData() {
-  // Fetch data from JSON file
   return fetch("./data.json")
     .then((response) => {
       if (!response.ok) {
@@ -154,12 +149,11 @@ searchInput.addEventListener("input", function (event) {
 
 function renderSearchResults(searchQuery) {
   const searchDropdown = document.getElementById("searchDropdown");
-  searchDropdown.innerHTML = ""; // Clear previous results
+  searchDropdown.innerHTML = ""; 
 
   if (searchQuery) {
     for (const movieId in movieData.movies) {
       const movie = movieData.movies[movieId];
-      // Check if movie name or genre matches the search query
       if (
         movie.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         movie.genre.includes(searchQuery.toLowerCase())
