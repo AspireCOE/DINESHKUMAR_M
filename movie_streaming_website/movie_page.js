@@ -24,7 +24,9 @@ background-image: url('${movie.main_pic}');
      <i class="ri-play-fill"></i>Watch
    </button>
    <button class="fav-button">
-    <i class="ri-heart-3-fill"></i><span>Add to Favourites</span>
+    <i class="ri-heart-3-fill"></i><span>${
+      movie.fav === "yes" ? "Added to Favourites" : "Add to Favourite"
+    }</span>
    </button>
  </div>
  </div>
@@ -36,12 +38,17 @@ background-image: url('${movie.main_pic}');
 
 // logout
 document.addEventListener("DOMContentLoaded", function () {
+  // Get the user icon element
   var logoutIcon = document.getElementById("logoutIcon");
 
+  // Add click event listener to the user icon
   logoutIcon.addEventListener("click", function () {
+    // Show a confirmation dialog
     var confirmLogout = confirm("Are you sure you want to logout?");
 
+    // If user confirms logout
     if (confirmLogout) {
+      // Redirect to login.html
       window.location.href = "login.html";
     }
   });
@@ -56,10 +63,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const buttonText = favButton.querySelector("span");
 
     // Toggle the button text between "Add to Favourites" and "Added to Favourites"
-    if (buttonText.textContent === "Add to Favourites") {
+    if (movieData.movies[movieId].fav === "no") {
       buttonText.textContent = "Added to Favourites";
+      movieData.movies[movieId].fav = "yes";
+      localStorage.setItem("movies", JSON.stringify(movieData));
     } else {
       buttonText.textContent = "Add to Favourites";
+      movieData.movies[movieId].fav = "no";
+      localStorage.setItem("movies", JSON.stringify(movieData));
     }
   });
 });

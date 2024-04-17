@@ -10,7 +10,7 @@
       "cover": "https://img.onmanorama.com/content/dam/mm/en/entertainment/movie-reviews/images/2023/10/18/leo-poster.jpg",
       "main_pic": "images/m1_pic.jpg",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMmFiOGYyZjQtZmZmNC00ZTgzLWI5ZjktMTRiYzc5NjAzODRkXkEyXkFqcGdeQXVyMTYyNDkzNzgz._V1_UY1200_CR82,0,630,1200_AL_.jpg",
-      "fav": "yes"
+      "fav": "no"
     },
     "m2": {
       "name": "Jailer",
@@ -22,7 +22,7 @@
       "cover": "https://www.hindustantimes.com/ht-img/img/2023/08/19/1600x900/jailer_box_office_tamil_nadu_1692416829885_1692416841022.jpg",
       "main_pic": "images/m2_pic.jpg",
       "thumbnail": "https://moviegalleri.net/wp-content/uploads/2022/08/Rajinikanth-Jailer-Movie-First-Look-Poster-HD.jpg",
-      "fav": ""
+      "fav": "no"
     },
     "m3": {
       "name": "12th Fail",
@@ -44,7 +44,8 @@
       "year": "2023",
       "cast": ["Kamal Haasan", "Vijay Sethupathi"],
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTYxOWU3OWYtOGM4NC00NDhlLTlmZTYtMGUxM2YwZmFhOGFlXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
-      "main_pic": "images/m4_pic.webp"
+      "main_pic": "images/m4_pic.webp",
+      "fav": "no"
     },
     "m5": {
       "name": "Ratchasan",
@@ -54,7 +55,8 @@
       "year": "2023",
       "cast": ["Vishnu Vishal", "Amala Paul"],
       "thumbnail": "https://image.tmdb.org/t/p/original/mruUFlrVKiL994y3vvQBT8R2Vnf.jpg",
-      "main_pic": "images/m5_pic.jpg"
+      "main_pic": "images/m5_pic.jpg",
+      "fav": "no"
     },
     "m6": {
       "name": "Vikram Vedha",
@@ -64,7 +66,8 @@
       "year": "2023",
       "cast": ["Madhavan", "Vijay Sethupathi"],
       "thumbnail": "images/thriler-2.webp",
-      "main_pic": "images/m6_pic.avif"
+      "main_pic": "images/m6_pic.avif",
+      "fav": "no"
     },
     "m7": {
       "name": "Vettaiyadu vilayadu",
@@ -74,7 +77,8 @@
       "year": "2006",
       "cast": ["Kamal Haasan"],
       "thumbnail": "https://e1.pxfuel.com/desktop-wallpaper/55/279/desktop-wallpaper-online-vasool-raja-m-b-b-s-tamil-movies-vettaiyaadu-vilaiyaadu.jpg",
-      "main_pic": "images/m7_pic.webp"
+      "main_pic": "images/m7_pic.webp",
+      "fav": "no"
     },
     "m8": {
       "name": "Kaithi",
@@ -84,7 +88,8 @@
       "year": "2019",
       "cast": ["Karthik", "Arjun Das"],
       "thumbnail": "https://i.pinimg.com/originals/a4/1e/29/a41e294f26928fbd11726fb04d3d7f7e.jpg",
-      "main_pic": "images/m8_pic.jpg"
+      "main_pic": "images/m8_pic.jpg",
+      "fav": "no"
     },
     "m9": {
       "name": "Por thozhil",
@@ -94,7 +99,8 @@
       "year": "2023",
       "cast": ["Sarath kumar,Ashok Selvan"],
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzQ5MzBjZDQtZTZjMC00OTMwLThhZmUtN2I1MmEwMDk2OTdhXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg",
-      "main_pic": "images/m9_pic.avif"
+      "main_pic": "images/m9_pic.avif",
+      "fav": "no"
     },
     "m10": {
       "name": "Nanban",
@@ -104,7 +110,8 @@
       "year": "2023",
       "cast": ["Vijay", "Jeeva"],
       "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaBq7Zgay4nVukVCJGjgjNpktE47dLhfA9nQN4X_bYxz23nqWRpaZtobPtKII6Nz8px9MbCLHQwqYMrErcMvIW0w_422TdzEXmCXQTIS3fGMxTq6n9TuIkKkJq42h0-LqX6SrpmJpGBJI/s1600/nanban-latest-posters-4.jpg",
-      "main_pic": "images/m10_pic.jpg"
+      "main_pic": "images/m10_pic.jpg",
+      "fav": "no"
     },
     "m11": {
       "name": "Oru Kal Oru Kannadi",
@@ -114,7 +121,8 @@
       "year": "2012",
       "cast": ["Udhaynidhi Stalin", "Santhanam"],
       "thumbnail": "https://d2sal5lpzsf102.cloudfront.net/78575/public/public/system/posters/1441558/standard/Oru-Kal-Oru-Kannadi-1000x1400-Potrait_1682335520.jpg",
-      "main_pic": "images/m11_pic.png"
+      "main_pic": "images/m11_pic.png",
+      "fav": "no"
     },
     "m12": {
       "name": "Kadhalil Sodhappuvadhu Yeppadi",
@@ -124,7 +132,8 @@
       "year": "2012",
       "cast": ["Siddharth", "Amala Paul"],
       "thumbnail": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kadhalil-sodhapuvathu-eppadi-et00009000-24-03-2017-16-25-14.jpg",
-      "main_pic": "images/m12_pic.webp"
+      "main_pic": "images/m12_pic.webp",
+      "fav": "no"
     },
     "m13": {
       "name": "Peaky Blinders",
@@ -134,7 +143,8 @@
       "year": "2012",
       "cast": ["Cillian Murphy"],
       "thumbnail": "https://w0.peakpx.com/wallpaper/679/190/HD-wallpaper-tommy-shelby-peaky-blinders-thumbnail.jpg",
-      "main_pic": "images/m13_pic.jpg"
+      "main_pic": "images/m13_pic.jpg",
+      "fav": "no"
     },
     "m14": {
       "name": "Money heist",
@@ -144,7 +154,8 @@
       "year": "2017",
       "cast": ["Alvaro Morte"],
       "thumbnail": "https://w0.peakpx.com/wallpaper/252/242/HD-wallpaper-money-heist-professor-trending-iammsa-thumbnail.jpg",
-      "main_pic": "images/m14_pic.jpg"
+      "main_pic": "images/m14_pic.jpg",
+      "fav": "no"
     },
     "m15": {
       "name": "Premalu",
@@ -154,7 +165,8 @@
       "year": "2017",
       "cast": ["Mamitha Baiju", "Nalsen"],
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTA0OWQwYzYtNTU3MS00M2Y5LTlmZWEtYmMzN2VmZWExNGQwXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
-      "main_pic": "images/m15_pic.jpg"
+      "main_pic": "images/m15_pic.jpg",
+      "fav": "no"
     },
     "m16": {
       "name": "Komali",
@@ -164,7 +176,8 @@
       "year": "2020",
       "cast": ["Jayam Ravi", "Kajal Agarwal"],
       "thumbnail": "images/tn16.webp",
-      "main_pic": "images/m16_pic.webp"
+      "main_pic": "images/m16_pic.webp",
+      "fav": "no"
     },
     "m17": {
       "name": "Wednesday",
@@ -174,7 +187,8 @@
       "year": "2020",
       "cast": ["Jenna Ortega"],
       "thumbnail": "images/tn17.jpg",
-      "main_pic": "images/m17_pic.jpg"
+      "main_pic": "images/m17_pic.jpg",
+      "fav": "no"
     },
     "m18": {
       "name": "Santhosh subramaniam",
@@ -184,7 +198,8 @@
       "year": "2008",
       "cast": ["Jayam Ravi", "Genelia"],
       "thumbnail": "https://wallpapercave.com/wp/wp7851877.jpg",
-      "main_pic": "images/m18.jpg"
+      "main_pic": "images/m18.jpg",
+      "fav": "no"
     },
     "m19": {
       "name": "The last of us",
@@ -194,7 +209,8 @@
       "year": "2020",
       "cast": ["Pedro Pascal"],
       "thumbnail": "https://www.mordeo.org/files/uploads/2023/06/The-Last-of-Us-HBO-Original-Series-Poster-4K-Ultra-HD-Mobile-Wallpaper-scaled.jpg",
-      "main_pic": "images/m19.jpg"
+      "main_pic": "images/m19.jpg",
+      "fav": "no"
     }
   }
 }
