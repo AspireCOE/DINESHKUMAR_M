@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "6aff",
+      "username": "dsg",
+      "password": "dfg",
+      "mobile": "retet34",
+      "email": "dgsfg@sf.df"
+    },
+    {
+      "id": "4744",
+      "username": "dinesh",
+      "password": "dkdkdk",
+      "mobile": "97903926622",
+      "email": "dineshkumarblack@gmail.com"
+    },
+    {
+      "id": "27cc",
+      "username": "dineshkumar",
+      "password": "dinesh",
+      "mobile": "1234567890",
+      "email": "iahwfgjawfu@sjdghi.com"
+    },
+    {
+      "id": "79b5",
+      "username": "dineshkumar",
+      "password": "1232u451289589",
+      "mobile": "2092042341",
+      "email": "asjfhawli@gmail.com"
+    }
+  ],
+  "product": []
+}
